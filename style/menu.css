@@ -1,0 +1,113 @@
+.photo img{
+height:300px ;
+width: 290px;
+padding: 30%;
+margin-top: 20px;
+padding-left: 15px;
+}
+
+.photo li {
+display: inline-block;
+justify-content: space-between;  
+}
+
+h1{
+width: max-content;
+font-size: 72px;
+position: relative;
+cursor: pointer;
+margin: 100px auto;
+}
+
+fieldset{
+height: 600px;
+}
+
+.container-pizza {
+height: 1100px;
+
+}
+
+legend{
+font-size: 58px;
+color: darkorange;
+}
+
+.boutton{
+    text-decoration: none;
+    color: azure;
+    background-color: darkorange;
+    background-size: 25px;
+    border-radius: 20px;
+    font-size: 15px;
+    cursor: pointer;
+    padding: 12px 20px;
+}
+
+.boutton:hover{
+background-color: black;
+cursor: pointer; 
+transform: scale(1.15);
+box-shadow: 0 0 10px rgb(39, 27, 16) ;
+margin:5px ;
+}
+
+.box1{
+float:left ;
+width:300px ;
+height:450px ;
+padding:20px ;
+margin:30 px;
+transition: all 2s;
+}
+
+.box1 p{
+padding:5px ;
+font-family: cursive;
+text-align: 800;
+}
+
+.box1:hover{
+transform: scale(1.07);
+border: 1px solid rgb(20, 17, 17);
+box-shadow: 0px  0px 10px 10px rgb(178, 177, 177);
+}
+
+.heading{
+font-size:20px;
+color:brown ;
+font-weight:800 ;
+text-align:center ;
+letter-spacing:1px ;
+}
+
+.price{
+color: aqua;
+font-size:15px ;
+margin-left:100px ;
+font-weight:800px ;
+}
+
+.imag img{ 
+height:200px ;
+width:200px ;
+
+}
+
+.button{
+margin-top:30px ;
+text-align:center ;
+}
+
+.button button{
+width:200px ;
+height:50px ;
+padding:10px ;
+border-radius:20px ;
+background-color: darkorange;
+color: #ffffff;
+font-weight: 600;
+font-size: 20px;
+}
+
+

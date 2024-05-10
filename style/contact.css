@@ -1,0 +1,199 @@
+.contact{
+display: flex;
+width: 100%;
+min-width: 1200PX;
+align-items: center;
+justify-content: center;
+font-family: sans-serif;
+padding: 0 20px;
+padding-top: 50px;
+padding-bottom: 3%;
+}
+
+.font{
+background-color: rgb(245, 248, 247);
+padding: 0 20px;
+margin: 0 10px;
+width: calc(50%-20px);
+height: 200px;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+color: #e4dfdf;
+box-shadow: 0px 2px 20px rgba(39, 38, 38, 0.292);
+}
+
+.card-icon{
+font-size: 28px;
+background: #ff6348;
+width: 60px;
+height: 60px;
+text-align:center;
+line-height: 60px  !important;
+border-radius: 50%;
+transition: 0.3 linear;
+}
+
+.font:hover .card-icon{
+background: none;
+color: #ff6348 ;
+transition: scale(1.6);
+}
+
+.font p{
+margin-top: 20px;
+font-size: 30px;
+font-weight: 600;
+letter-spacing: 2px;
+max-height: 0;
+opacity: 0;
+transition: 0.3s linear;
+color: #ff6348 ;
+}
+
+.font:hover p{
+max-height: 40px;
+opacity: 1;
+
+}
+
+.container-contact {
+width: 45%;
+margin: 0 auto;
+text-align: center;
+border: none;
+box-shadow: 0px 2px 20px rgba(39, 38, 38, 0.292);
+}
+
+
+
+
+.maps {
+margin: 0 auto; 
+}
+
+
+
+ .contact-form h2 {
+ margin-bottom: 10px;
+color: #3e3d3d ;
+
+}
+
+.contact-form input, .contact-form textarea  {
+width: 80%;
+margin: 10px;
+padding: 10px;
+box-sizing: border-box;
+}
+
+.contact-form textarea {
+height: 150px;
+}
+
+.contact-form button {
+background-color: darkorange;
+color: white;
+width: 40%;
+height: 55px;
+border: none;
+border-radius: 20px;
+margin: 10px;
+font-size: 20px;
+box-shadow: 0px 2px 20px rgba(39, 38, 38, 0.292);
+}
+
+.contact-form button:hover{
+background-color: black ;
+}
+
+
+.titre2  {
+font-size: 40px;
+position: relative;
+cursor: pointer;
+margin:  auto; 
+}
+
+
+
+
+footer{
+background-color: darkorange;
+height: auto;
+width: 100vw;
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+padding-top: 40px;
+color: azure;
+margin: 0;
+
+}
+
+.container-footer{
+display: flex;
+align-items: center;
+justify-content: center;
+flex-direction: column;
+text-align: center;
+}
+
+
+.container-footer h3{
+font-size: 1.8rem;
+font-weight: 400;
+text-transform: capitalize;
+line-height: 3rem;
+}
+
+.container-footer p{
+max-width: 500px;
+margin: 10px auto;
+line-height: 28px;
+font-size: 14px;
+}
+
+.reseau a i{
+font-size: 30px; 
+}
+
+.reseau li{
+padding-left: 10px;
+display: inline-block;
+justify-content: space-between; 
+font-size: 25px;
+}
+
+.reseau li a {
+color: rgb(1, 1, 35);
+font-size: "40px";
+text-decoration: none;       
+}  
+
+.reseau li a:hover {
+color: floralwhite; 
+text-decoration: none;
+}  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
